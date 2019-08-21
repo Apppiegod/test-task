@@ -1,0 +1,138 @@
+.container {
+    margin: 0 21%;
+    overflow: hidden;
+}
+.header {
+    background-color: #ffffff;
+}
+.header__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.header__left-side {
+    flex: 1;
+    margin-left: 7%;
+}
+
+.header__right-side {
+    flex: 2;
+    padding-top: 4%;
+    font-size: 35px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 300;
+
+}
+.header__right-side div:nth-of-type(1) {
+    display: inline;
+}
+
+.header__right-side div:nth-of-type(2) {
+    display: inline;
+}
+
+/*header blue-date-box style */
+.header__right-side-date {
+    color:#4090db;
+    font-size: 15px;
+    margin-left: 3%;
+    padding: 5px;
+    border: solid 1px #4090db;
+    border-radius: 3px;
+    position: relative;
+    bottom: 5px;
+}
+
+.statistics div {
+    display: inline;
+    margin-right: 3%;
+}
+.statistics div p {
+    display: inline;
+    font-size: 17px;
+    color: #3d4044;
+}
+.statistics-count {
+    font-weight: 700;
+    margin-right: 1%;
+}
+.statistics-title {
+    font-weight: 300;
+}
+
+.header-date p,input,label {
+    display: inline;
+}
+.header-date label:first-of-type {
+    color:#262626;
+    font-size: 17px;
+    margin-right: 3%;
+}
+.header-date input {
+    border-radius: 5px;
+    border: solid 1px lightgray;
+    padding: 6px 10px;
+    margin-right: 3%;
+}
+.table-posts {
+    background-color: #f4f4f4;
+    margin-top: 25px;
+    padding: 50px 0;
+    text-align: center;
+}
+.post-space {
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-space div {
+    flex: 1 0 30%;
+    margin: 1.5% 0.1%;
+}
+.post-space div img {
+    height: 260px;
+    width: 260px;
+}
+
+.img-wrap {
+    position: relative;
+}
+.img-wrap div {
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    width: 100%;
+}
+.img-wrap div:nth-of-type(2) {
+    bottom: 45px;
+}
+.img-wrap div:nth-of-type(3) {
+    bottom: 20px;
+}
+
+.img-wrap div p,i {
+    display: inline;
+    color:#fff;
+    margin: 0 1%;
+    font-size: 17px;
+    font-weight: 400;
+}
+.img-wrap div.publication-statistic p:first-of-type {
+    margin-right: 35px;
+}
+/*position of fa-video on video-posts*/
+.fa-video-camera {
+    position: absolute;
+    left: 85%;
+    top: 2%;
+    color:#6e6e6e;
+    font-size: 50px;
+}
+/*BTN style*/
+.button__load-more button{
+    color: #000000;
+    font-size: 12px;
+    margin-top: 25px;
+    border-radius: 15px;
+    padding: 8px 30px;
+    border: solid 1px #000000;
+    background-color: rgba(0,0,0,0);
+}

@@ -1,0 +1,48 @@
+
+/* Large desktops and laptops */
+@media (max-width: 1500px) {
+    .header-date p,input,label {
+        display: block;
+        margin: 2% 0;
+    }
+}
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header__wrapper {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .header__wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .header-date {
+        text-align: center;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .header__wrapper {
+        display: block;
+        text-align: center;
+    }
+    .header-date {
+        text-align: center;
+    }
+}
